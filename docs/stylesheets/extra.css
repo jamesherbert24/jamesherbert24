@@ -1,0 +1,19 @@
+.active-circle {
+    color: teal;
+}
+
+.standard-circle {
+    color: grey;
+}
+
+.active-checkmark {
+    color: teal;
+}
+
+.teal-icon {
+    color: teal;
+}
+
+.md-grid {
+  max-width: 1000px; 
+}
