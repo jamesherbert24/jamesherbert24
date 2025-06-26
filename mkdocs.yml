@@ -2,6 +2,7 @@ site_name: James Herbert
 site_url: https://jamesherbert24.github.io
 theme:
   name: material
+  custom_dir: overrides
   font: 
     text: Fira Sans
   icon:
@@ -23,6 +24,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  features:
+    - announce.dismiss
 
 extra_css:
   - stylesheets/extra.css
