@@ -6,6 +6,10 @@ theme:
     text: Fira Sans
   icon:
     logo: material/chart-donut-variant
+    admonition:
+      tip: material/head-flash
+    features:
+      - navigation.sections
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -27,6 +31,9 @@ markdown_extensions:
   - attr_list
   - pymdownx.blocks.caption
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg

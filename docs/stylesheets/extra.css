@@ -1,28 +1,19 @@
-@keyframes fade {
-    0% {
-        opacity: 0;
-    }
-    30% {
-        opacity: 1;
-    }
-    70% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.fading-circle {
-    animation: fade 2000ms infinite;
+.active-circle {
     color: teal;
-    opacity: 0;
 }
 
 .standard-circle {
     color: grey;
 }
 
-.checkmark {
+.active-checkmark {
     color: teal;
+}
+
+.teal-icon {
+    color: teal;
+}
+
+.md-grid {
+  max-width: 1000px; 
 }
